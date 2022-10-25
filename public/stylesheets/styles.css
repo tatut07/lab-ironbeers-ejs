@@ -1,7 +1,91 @@
+body {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px;
+}
+.navBar {
+  font-size: 16px;
+  justify-content: space-between;
+  background-color: #2081c3;
+  padding: 16px 20px;
+}
+.beerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.button1 {
+  background-color: #2081c3;
+  color: white;
+  font-size: 18px;
+  padding: 16px;
+  width: 200px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.button2 {
+  background-color: #2081c3;
+  color: white;
+  font-size: 18px;
+  padding: 16px;
+  width: 250px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.randomBeerImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.h1 {
+  text-align: center;
+}
 /*
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
 */

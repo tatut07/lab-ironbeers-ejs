@@ -1,12 +1,18 @@
-<p>
+<div class="randomBeerImg">
     <img src="<%- randomBeer[0].image_url%>" alt="beer image">
-</p>
-<p>
+</div>
+<h1>
     <%- randomBeer[0].name%>
+</h1>
+<p class="tagline">
+    <%- randomBeer[0].tagline%>
 </p>
 <p>
     <%- randomBeer[0].description%>
 </p>
-<p>
-    <%- randomBeer[0].tagline%>
+<p><strong>Food Pairing</strong>
+    <%- randomBeer[0].food_pairing%>
+</p>
+<p><strong>Brewers Tips</strong>
+    <%- randomBeer[0].brewers_tips%>
 </p>
