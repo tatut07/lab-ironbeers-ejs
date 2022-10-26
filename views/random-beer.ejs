@@ -1,18 +1,18 @@
-<div class="randomBeerImg">
-    <img src="<%- randomBeer[0].image_url%>" alt="beer image">
+<h1>Random Beer!</h1>
+<div class="randomBeer">
+    <%- include('./partials/sameInfoBeer.ejs')%>
+        <h2>Food Pairing:</h2>
+        <%randomBeer[0].food_pairing.forEach(pairing=> { %>
+            <ul>
+                <li>
+                    <%=pairing%>
+                </li>
+            </ul>
+            <% }) %>
+                </h4>
+                <h4>
+                    <h2>Brewers Tips</h2>
+                    <%- randomBeer[0].brewers_tips%>
+                </h4>
 </div>
-<h1>
-    <%- randomBeer[0].name%>
-</h1>
-<p class="tagline">
-    <%- randomBeer[0].tagline%>
-</p>
-<p>
-    <%- randomBeer[0].description%>
-</p>
-<p><strong>Food Pairing</strong>
-    <%- randomBeer[0].food_pairing%>
-</p>
-<p><strong>Brewers Tips</strong>
-    <%- randomBeer[0].brewers_tips%>
-</p>
+</div>

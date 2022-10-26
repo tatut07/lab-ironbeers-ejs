@@ -1,14 +1,18 @@
-<% allTheBeers.forEach(beer=> { %>
-    <p>
-        <img src="<%- beer.image_url%>" alt="beer image">
-    </p>
-    <p>
-        <%- beer.name%>
-    </p>
-    <p>
-        <%- beer.description%>
-    </p>
-    <p>
-        <%- beer.tagline%>
-    </p>
-    <% }) %>
+<div class="beer-page">
+    <% beer.forEach(beer=> { %>
+        <a href="/beerId/<%-beer.id%>">
+            <div class="beer">
+                <img src="<%= beer.image_url %>" alt="beer image" style="height: 100px" />
+                <h3>
+                    <%- beer.name %>
+                </h3>
+                <p>
+                    <%- beer.description %>
+                </p>
+                <h6>
+                    <%- beer.tagline%>
+                </h6>
+            </div>
+        </a>
+        <% }) %>
+</div>
